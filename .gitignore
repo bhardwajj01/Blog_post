@@ -1,0 +1,31 @@
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Environment files
+.env
+*.env
+.env.*
+
+# Production-specific settings
+production_settings.py
+config/
+
+# Deployment files
+*.pid
+*.sock
+*.log
+
+# IDE and OS specific
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
